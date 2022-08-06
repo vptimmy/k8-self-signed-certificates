@@ -1,0 +1,7 @@
+apiVersion: skaffold/v1beta13
+kind: Config
+
+deploy:
+  kubectl:
+    manifests:
+      - ./self-signed-ssl.yaml
