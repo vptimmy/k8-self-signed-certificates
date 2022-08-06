@@ -17,7 +17,7 @@ Simply append the annotation below to your metadata.  Once the ingress deploys a
 apiVersion: networking.k8.io/vi
 kind: Ingress
 metadata:
-   annotations: cert-manager.io/cluster-issuer: homelab-ca-issuer
+   annotations: cert-manager.io/cluster-issuer: homelab-ca-issuer 
 ```
 
 ## How to get the public crt to share
